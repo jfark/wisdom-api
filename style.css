@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    background-image: url("aquarium.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: greenyellow;
+    padding: 10px 100px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+p {
+    font-size: 1em;
+}
+

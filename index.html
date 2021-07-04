@@ -1,0 +1,22 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>Axios and Vue</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+            <div id="app">
+                <div v-for="random in advice">
+                    <h1>Free Wisdom Here:</h1>
+                    <p>(Refresh page for new advice :P)</p>
+                    <h2>{{random.advice}}</h2>
+                </div>
+                
+            </div>
+        <script src="vendors/axios.js"></script>
+        <script src="vendors/vue.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
